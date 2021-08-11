@@ -1,0 +1,16 @@
+before_script:
+  - cd /srv
+
+rspec:
+  script:
+    - cd /usr/local
+    - ls -l
+
+    
+    - pwd
+
+rubocop:
+  script:
+    - cd /usr/local
+    - ls -l
+    - pwd
